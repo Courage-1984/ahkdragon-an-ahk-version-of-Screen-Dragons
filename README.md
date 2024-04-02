@@ -25,10 +25,11 @@ ahkdragon is an ahk (AutoHotkey) version of Screen Dragons. Inspired by "[Screen
 
 **Note 2:** when running the executable it will create a file in your `\Documents\` root called `ahkdragon_temp_default.png`. *Unfortunately I currently don't know of a way around this.*
 
-**Note 3:** you are able to run multiple instances of **ahkdragon** but will only be able to use the [Shortcuts](https://github.com/Courage-1984/ahkdragon-an-ahk-version-of-Screen-Dragons?tab=readme-ov-file#shortcuts) on the latest instance. *See [multiple instance attempts]()*
+**Note 3:** you are able to run multiple instances of **ahkdragon** but will only be able to use the [Shortcuts](https://github.com/Courage-1984/ahkdragon-an-ahk-version-of-Screen-Dragons?tab=readme-ov-file#shortcuts) on the latest instance. *See [multiple instance attempts](https://github.com/Courage-1984/ahkdragon-an-ahk-version-of-Screen-Dragons?tab=readme-ov-file#multiple-instance-attempts)*
 
 ### Shortcuts
 
+- ``Image Drag`` onto the **ahkdragon** while replace the **ahkdragon** with the image you dragged on top of it.
 - ``Shift+t`` to toggle AlwaysOnTop. *(Defualt when first running executable is set to AlwaysOnTop)*
 - ``Alt+WheelUp`` to Increase Image Size.
 - ``Alt+WheelDown`` to Decrease Image Size.
@@ -44,6 +45,9 @@ ahkdragon is an ahk (AutoHotkey) version of Screen Dragons. Inspired by "[Screen
 
 ## Bugs
 
+- [Shortcuts](https://github.com/Courage-1984/ahkdragon-an-ahk-version-of-Screen-Dragons?tab=readme-ov-file#shortcuts) only works on latest instance.
+- Sometimes you need to repeat the ``Shift+t`` shortcut to toggle AlwaysOnTop.
+- Dragging a new image ontop of **ahkdragon** to replace it: image will load at image `Dimensions` so just be carefull when using high resolution images
 
 ***
 
