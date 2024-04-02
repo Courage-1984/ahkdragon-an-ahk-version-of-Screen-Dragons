@@ -23,13 +23,25 @@ ahkdragon is an ahk (AutoHotkey) version of Screen Dragons. Inspired by "[Screen
 
 **Note 2:** when running the executable it will create a file in your `\Documents\` root called `ahkdragon_temp_default.png`. *Unfortunately I currently don't know of a way around this.*
 
+**Note 3:**  **
+
 ### Shortcuts
 
-- ``Shift+t`` to toggle AlwaysOnTop. (Defualt when first running executable is set to AlwaysOnTop)
+- ``Shift+t`` to toggle AlwaysOnTop. *(Defualt when first running executable is set to AlwaysOnTop)*
 - ``Alt+WheelUp`` to Increase Image Size.
 - ``Alt+WheelDown`` to Decrease Image Size.
 - ``Ctrl+Shift+WheelUp`` to Increase Opacity.
 - ``Ctrl+Shift+WheelDown`` to Decrease Opacity.
+
+***
+
+## Preview
+
+
+***
+
+## Bugs
+
 
 ***
 
@@ -40,6 +52,14 @@ ahkdragon is an ahk (AutoHotkey) version of Screen Dragons. Inspired by "[Screen
 > No Sponsors
 > 
   > screendragons.co.uk currently does not have any sponsors for you.
+
+### Download Screen Dragons 2.4.0.7 [Here]().
+
+*"`.ahk`" is the AutoHotkey script*
+
+*"`.ico`" is the icon used for the executable*
+
+*"`.png`" is the default image that first shows when running the executable*
 
 ***
 
