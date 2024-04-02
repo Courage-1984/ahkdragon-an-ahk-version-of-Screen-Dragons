@@ -127,9 +127,9 @@ GuiTitle := "ahkdragon_" . instanceCounter
 
 ***
 
-**ahkdragon2.ahk** is the second version... 
+**[ahkdragon2.ahk](https://github.com/Courage-1984/ahkdragon-an-ahk-version-of-Screen-Dragons/blob/main/multiple%20instance%20attempts/ahkdragon2.ahk)** is the second version... 
 
 Play around with it and see what you can figure out...
 
-#### also check out the next and (currently final) iteration of my attempt at trying to run multiple instance of `ahkdragon` at: "ahkdragon3 - multiple instance issue end result"
+#### also check out the next and (currently final) iteration of my attempt at trying to run multiple instance of `ahkdragon` at: "[ahkdragon3 - multiple instance issue end result](https://github.com/Courage-1984/ahkdragon-an-ahk-version-of-Screen-Dragons/blob/main/multiple%20instance%20attempts/ahkdragon3%20-%20multiple%20instance%20issue%20end%20result.md)"
 
