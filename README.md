@@ -47,7 +47,17 @@ ahkdragon is an ahk (AutoHotkey) version of Screen Dragons. Inspired by "[Screen
 
 - [Shortcuts](https://github.com/Courage-1984/ahkdragon-an-ahk-version-of-Screen-Dragons?tab=readme-ov-file#shortcuts) only works on latest instance.
 - Sometimes you need to repeat the ``Shift+t`` shortcut to toggle AlwaysOnTop.
-- Dragging a new image ontop of **ahkdragon** to replace it: image will load at image `Dimensions` so just be carefull when using high resolution images
+- Dragging a new image ontop of **ahkdragon** to replace it: image will load at image `Dimensions` so just be carefull when using high resolution images.
+- Not sure what the behavior is on different screen sizes but it should open in the center of your screen with:
+```ahk
+X := A_ScreenWidth // 2.5
+Y := A_ScreenHeight // 7
+```
+otherwise just change that part in the `ahk` back to:
+```ahk
+X := 0
+Y := 0
+```
 
 ***
 
