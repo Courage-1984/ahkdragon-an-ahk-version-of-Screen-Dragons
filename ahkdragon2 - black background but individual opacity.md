@@ -1,5 +1,6 @@
-I have the following ahk:
+## Consider the following ahk *(my main ahk script actually)*:
 
+```ahk
 #Persistent
 #SingleInstance Off ; Allow multiple instances
 SetBatchLines -1
@@ -20,12 +21,10 @@ X := 0
 Y := 0
 AlwaysOnTop := false
 
-
 ; Get the original width and height of the image
 Gui, Add, Picture, vPic, % Picture
 Gui, Show, NA, % GuiTitle
 WinSet, TransColor, 000000 %Opacity%, % GuiTitle
-
 GuiControlGet, width, Pos, PicW
 GuiControlGet, height, Pos, PicH
 
@@ -45,30 +44,6 @@ Gui -Border +ToolWindow
 
 Gui, Show, NA X%X% Y%Y% AutoSize, % GuiTitle
 WinSet, TransColor, 000000 %Opacity%, % GuiTitle
-
-; Function to decrease the opacity of the image
-DecreaseOpacity() {
-    ; Wait for .2 seconds (adjust delay as needed)
-    Sleep, 200
-
-    ; Decrease the opacity by 10
-    Opacity -= 10
-    if (Opacity < 0)
-        Opacity := 205
-
-    ; Set the new opacity
-    ; WinSet, TransColor, 000000 %Opacity%, % GuiTitle
-    WinSet, Transparent, %Opacity%, % GuiTitle
-}
-
-; Decrease the opacity after a delay
-; DecreaseOpacity()
-
-; Gui, Destroy
-
-
-; Opacity := Opacity - 10
-; WinSet, TransColor, 000000 %Opacity%, % GuiTitle
 
 Gui +AlwaysOnTop -Caption
 return
@@ -100,7 +75,6 @@ return
 
 GuiDropFiles:
     Picture := A_GuiEvent
-
     GuiControl,, Pic, *w%width% *h%height% %Picture%
     Gui, Show, NA X%X% Y%Y% AutoSize, % GuiTitle
 return
@@ -123,24 +97,39 @@ return
 
 GuiClose:
     ExitApp
+```
 
-Now when I use this at the beginning:
+***
 
-"; GuiTitle := "ahkdragon_" . instanceCounter
+### Now for my main ahk at the start I use:
+
+```ahk
+; GuiTitle := "ahkdragon_" . instanceCounter
 
 ; Unique title for the GUI window
 GuiTitle := "ahkdragon_" . A_TickCount"
+```
 
-Each new instance of the ahk renders correctly and doesn't show a black background where it is supposed to be transparent. The problem is I can only control (change image size and opacity) the newest instance I launched and not the older ones.
+> With this, each new instance of the ahk renders correctly and doesn't show a black background where it is supposed to be transparent.
+> The problem is I can only control (change `image size` and `opacity` and `AlwaysOnTop`) the newest instance I launched and not the older ones.
 
-but Now when I use this at the beginning:
+### but Now when I use this at the beginning:
 
-"GuiTitle := "ahkdragon_" . instanceCounter
+```ahk
+GuiTitle := "ahkdragon_" . instanceCounter
 
 ; Unique title for the GUI window
 ; GuiTitle := "ahkdragon_" . A_TickCount"
+```
 
-Each new instance of the ahk renders shows a black background where it is supposed to be transparent. But I can only control (change image size and opacity) of all of the instances individually, the older and newer ones, depending on which one i clicked last.
+> Each new instance of the ahk renders shows a black background where it is supposed to be transparent.
+> But I can control changing the `opacity` of individual instances (new and old) and changing the `image size` of individual instances (new and old) (this is a bit glitchy; but kinda works?) depending on which one i clicked last.
 
-Any advice to get the best of both worlds here?
+***
+
+**ahkdragon2.ahk** is the second version... 
+
+Play around with it and see what you can figure out...
+
+#### also check out the next and (currently final) iteration of my attempt at trying to run multiple instance of `ahkdragon` at: "ahkdragon3 - multiple instance issue end result"
 
