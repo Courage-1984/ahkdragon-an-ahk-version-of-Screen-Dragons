@@ -66,7 +66,7 @@ SaveGuiArrayToFile()  ; Save the updated guiArray data
 
 **and when I read that, I was just *done*, couldn't care anymore and settled with what I had...**
 
-**ahkdragon3.ahk** is the third iteration of my attemps, theres a lot of commented out code and etc. etc.
+**[ahkdragon3.ahk](https://github.com/Courage-1984/ahkdragon-an-ahk-version-of-Screen-Dragons/blob/main/multiple%20instance%20attempts/ahkdragon3.ahk)** is the third iteration of my attemps, theres a lot of commented out code and etc. etc.
 
 Dunno, look at it, play with it, whatevs
 
