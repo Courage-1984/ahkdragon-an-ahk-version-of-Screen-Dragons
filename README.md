@@ -29,7 +29,7 @@ ahkdragon is an ahk (AutoHotkey) version of Screen Dragons. Inspired by "[Screen
 
 ### Shortcuts
 
-- ``Image Drag`` onto the **ahkdragon** while replace the **ahkdragon** with the image you dragged on top of it.
+- ``Image Drag`` onto the **ahkdragon** will replace the **ahkdragon** image with the image you dragged on top of it.
 - ``Shift+t`` to toggle AlwaysOnTop. *(Defualt when first running executable is set to AlwaysOnTop)*
 - ``Alt+WheelUp`` to Increase Image Size.
 - ``Alt+WheelDown`` to Decrease Image Size.
