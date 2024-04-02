@@ -40,6 +40,7 @@ ahkdragon is an ahk (AutoHotkey) version of Screen Dragons. Inspired by "[Screen
 
 ## Preview
 
+https://github.com/Courage-1984/ahkdragon-an-ahk-version-of-Screen-Dragons/assets/18268669/be08f763-e36f-4b2c-9abe-de2934c02916
 
 ***
 
