@@ -15,6 +15,8 @@ ahkdragon is an ahk (AutoHotkey) version of Screen Dragons. Inspired by "[Screen
 
 *"`default.png`" is the default image that first shows when running the executable*
 
+*"`compile instructions.md`" is instructions to compile `ahkdragon.ahk` into an executable(`.exe`) using `Ahk2Exe`*
+
 ***
 
 ## About
@@ -23,7 +25,7 @@ ahkdragon is an ahk (AutoHotkey) version of Screen Dragons. Inspired by "[Screen
 
 **Note 2:** when running the executable it will create a file in your `\Documents\` root called `ahkdragon_temp_default.png`. *Unfortunately I currently don't know of a way around this.*
 
-**Note 3:**  **
+**Note 3:** you are able to run multiple instances of **ahkdragon** but will only be able to use the [Shortcuts](https://github.com/Courage-1984/ahkdragon-an-ahk-version-of-Screen-Dragons?tab=readme-ov-file#shortcuts) on the latest instance. *See [multiple instance attempts]()*
 
 ### Shortcuts
 
@@ -45,6 +47,23 @@ ahkdragon is an ahk (AutoHotkey) version of Screen Dragons. Inspired by "[Screen
 
 ***
 
+## multiple instance attempts
+
+> this is me documenting and archiving my attempts at trying to implement being ableto run **ahkdragon** on multiple instances while retaining full functionality... *ejoy*
+
+#### [Repo Location](https://github.com/Courage-1984/ahkdragon-an-ahk-version-of-Screen-Dragons/tree/main/multiple%20instance%20attempts)
+
+1. First go read [Here: ahkdragon2 - black background but individual opacity](https://github.com/Courage-1984/ahkdragon-an-ahk-version-of-Screen-Dragons/blob/main/multiple%20instance%20attempts/ahkdragon2%20-%20black%20background%20but%20individual%20opacity.md)
+2. Then visit and read [Here: ahkdragon3 - multiple instance issue end result](https://github.com/Courage-1984/ahkdragon-an-ahk-version-of-Screen-Dragons/blob/main/multiple%20instance%20attempts/ahkdragon3%20-%20multiple%20instance%20issue%20end%20result.md)
+
+**Looking for a challenge?**
+
+Read the above attempts and go and try figure out a solution yourself!
+
+*good luck!*
+
+***
+
 ### Inspired by: [Screen Dragons](https://www.majorgeeks.com/files/details/screen_dragons.html)
 
 #### [Official Screen Dragons Site](https://screendragons.co.uk/) seems to be down, indicating:
@@ -53,13 +72,15 @@ ahkdragon is an ahk (AutoHotkey) version of Screen Dragons. Inspired by "[Screen
 > 
   > screendragons.co.uk currently does not have any sponsors for you.
 
-### Download Screen Dragons 2.4.0.7 [Here]().
+### Download Screen Dragons 2.4.0.7 [Here](https://github.com/Courage-1984/ahkdragon-an-ahk-version-of-Screen-Dragons/tree/main/Screen%20Dragons%202.4.0.7). *(Got contents from majorgeeks)*
 
-*"`.ahk`" is the AutoHotkey script*
+*"`screendragons.exe`" is the Windows executable file*
 
-*"`.ico`" is the icon used for the executable*
+*"`SDReadme.rtf`" is the official Readme provided by "Screen Dragons" for ver `2.4.0.7`*
 
-*"`.png`" is the default image that first shows when running the executable*
+*"`Screen Dragons 2.4.0.7.zip`" is a `.zip` containing both `screendragons.exe` and `SDReadme.rtf`*
+
+*"`about.md`" is a formatted markdown of the info provided by "majorgeeks" at [Screen Dragons 2.4.0.7](https://www.majorgeeks.com/files/details/screen_dragons.html)*
 
 ***
 
