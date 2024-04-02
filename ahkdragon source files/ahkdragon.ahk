@@ -14,8 +14,10 @@ FileInstall, default.png, % "C:\Users\" . A_UserName . "\Documents\ahkdragon_tem
 Picture := "C:\Users\" . A_UserName . "\Documents\ahkdragon_temp_default.png"
 Opacity := 255
 global X, Y
-X := 0
-Y := 0
+; X := 0
+; Y := 0
+X := A_ScreenWidth // 2.5
+Y := A_ScreenHeight // 7
 AlwaysOnTop := false
 
 
